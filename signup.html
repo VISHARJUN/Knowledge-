@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+<title>signup</title>
+   <style>
+    body {
+           width: 500px;
+           height: 500px;
+           border-style: outset;
+           border-color: black;
+           border-width: 5px;
+           border-radius: 10px;
+           background-color: azure;
+           padding: 20px 20px 20px 20px;
+           margin-left: 400px;
+        
+       }
+       ul {
+           font-size: 12px;
+       }
+    </style>     
+</head>
+<body>
+       <form action = "">
+        First name: <input type = "text" name = "fName" required><br><br>
+        Middle name: <input type = "text" name = "mName"><br><br>
+        Last name: <input type = "text" name = "lName" required><br><br>
+        Gender: <input type = "radio" name="Gender" value="male">Male
+                <input type = "radio" name="Gender" value="female">Female
+                <input type = "radio" name="Gender" value="other">Other<br><br>
+        User ID: <input type = "text" name = "userId" required><br><br>
+        Password: <input type = "password" name = "passWord" required><br><br>
+        <ul>
+        <li>Password should be of length 8-16.</li>
+        <li>It is case sensitive.</li>
+        <li>It should contain atleast a single special character. Eg: !@#$%^&*</li>
+        <li>It should contain atleast a single digit.</li>
+        </ul>
+        Date Of Birth: <input type="date" name="dob" required><br><br>
+        Contact No.: <input type="tel" name="contactNo" required><br><br>
+        Email ID: <input type = "email" name = "emailId" required><br><br>
+        <input type = "submit" value = "Sign Up" style = "background-color:cadetblue;">
+    </form>
+</body>
+    
+    
+    
+    
+    
